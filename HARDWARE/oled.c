@@ -207,6 +207,25 @@ void OLED_SetPos(uint8_t x ,uint8_t y)
 	Out_Oled((x&0x0f),MOC_Commend); 
 }
 
+/*
+ * 功  能：OLED清屏函数
+ * 参  数：无
+ * 返回值：无
+ */ 
+void OLED_ClearLogin(void)
+{
+	uint8_t i ,m;
+	
+	for(m=0;m<8;m++)
+	{
+		OLED_SetPos(0 ,m);  //确定页
+		
+		for(i=0;i<128;i++)
+		{
+			Out_Oled(0x00,MOC_Data);	
+		}
+	}
+}
 
 /*
  * 功  能：OLED清屏函数
@@ -217,7 +236,7 @@ void OLED_Clear(void)
 {
 	uint8_t i ,m;
 	
-	for(m=0;m<8;m++)
+	for(m=4;m<6;m++)
 	{
 		OLED_SetPos(0 ,m);  //确定页
 		

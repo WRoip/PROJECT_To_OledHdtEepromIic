@@ -41,4 +41,13 @@ void Login(char name[], char role[]);
  */
 void Set_Config(void);
 
+/*
+ * 功  能：修改或初始化AT24C02
+ * 参  数：
+ *				首次进入：choose == 1
+ *				修改参数：choose == 0
+ * 返回值：无
+ */
+void Modify_TH(uint8_t choose);
+
 #endif

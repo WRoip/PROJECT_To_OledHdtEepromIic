@@ -457,6 +457,16 @@
               <FileType>1</FileType>
               <FilePath>..\FWLIB\src\stm32f4xx_syscfg.c</FilePath>
             </File>
+            <File>
+              <FileName>stm32f4xx_rtc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FWLIB\src\stm32f4xx_rtc.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_pwr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\FWLIB\src\stm32f4xx_pwr.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -546,6 +556,11 @@
               <FileName>At24c02_Read.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\At24c02_Read.c</FilePath>
+            </File>
+            <File>
+              <FileName>rtc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\rtc.c</FilePath>
             </File>
           </Files>
         </Group>

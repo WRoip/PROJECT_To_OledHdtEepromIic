@@ -73,6 +73,13 @@ void Led_Init(void);
  * 参  数：无
  * 返回值：无
  */ 
+void OLED_ClearLogin(void);
+
+/*
+ * 功  能：OLED清屏函数
+ * 参  数：无
+ * 返回值：无
+ */ 
 void OLED_Clear(void);
 
 /*

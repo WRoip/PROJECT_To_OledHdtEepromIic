@@ -74,7 +74,7 @@ void Exti_Init()
  */
 void EXTI0_IRQHandler(void)
 {
-	/***************** Ï÷¶¶ ***********************/
+	/***************** Ïû¶¶ ***********************/
 	if(RESET != EXTI_GetITStatus(EXTI_Line0)){
 	delay_ms(300);
 	}else{
@@ -103,7 +103,7 @@ void EXTI0_IRQHandler(void)
  */
 void EXTI2_IRQHandler(void)
 {
-	/***************** Ï÷¶¶ ***********************/
+	/***************** Ïû¶¶ ***********************/
 	if(RESET != EXTI_GetITStatus(EXTI_Line2)){
 	delay_ms(300);
 	}else{
@@ -133,7 +133,7 @@ void EXTI2_IRQHandler(void)
  */
 void EXTI3_IRQHandler(void)
 {
-	/***************** Ï÷¶¶ ***********************/
+	/***************** Ïû¶¶ ***********************/
 	if(RESET != EXTI_GetITStatus(EXTI_Line3)){
 	delay_ms(300);
 	}else{
@@ -163,7 +163,7 @@ void EXTI3_IRQHandler(void)
  */
 void EXTI4_IRQHandler(void)
 {
-	/***************** Ï÷¶¶ ***********************/
+	/***************** Ïû¶¶ ***********************/
 	if(RESET != EXTI_GetITStatus(EXTI_Line4)){
 	delay_ms(300);
 	}else{
